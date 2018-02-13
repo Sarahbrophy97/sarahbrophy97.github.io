@@ -1,0 +1,135 @@
+body {
+	background-color: #A4CBE5  ;
+	color: grey;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 18px;
+	border: 2px navy; 
+	border-radius: 2px;
+	box-shadow: 3px;
+    text-align: center;
+}
+h1 {
+	color: navy  ;
+	font-size: 40px;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	text-align: center;	
+}
+h2 { 
+color: #195983    ;
+font-size: 20px;
+font-family: 'Rammetto One', cursive;
+border: 3px solid navy;
+border-radius: 3px;
+box-shadow: 5px;
+text-align: center; 
+}
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  opacity: 0.6;
+  margin-bottom: 30px; 
+}
+img:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+#footer{
+  padding: 100px;
+  background: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+
+.card {
+  padding:30px;
+  font-weight: lighter;
+  text-align: center;
+}
+#footer {
+	background-color: rgb(15,15,15);
+	text-align: center;	
+}
+#footer a {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+}
+#footer a:hover {
+  color: white;
+}
